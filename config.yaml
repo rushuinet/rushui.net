@@ -1,0 +1,45 @@
+baseURL : 'https://www.rushui.net/'
+languageCode : 'en-us'
+title : '如水网'
+theme : "rs"
+markup:
+  highlight:
+   linenos: true
+   hl_inline: false
+   anchorLineNos: false
+   lineNumbersInTable: false
+  tableOfContents:
+    endLevel: 3
+    ordered: false
+    startLevel: 1
+taxonomies:
+  tag: tags
+  category: categories
+sectionPagesMenu: "main"
+params:
+  announcement: "<strong>如水网</strong>新版本上线了！"
+  colors: ["primary", "secondary", "success", "danger", "warning", "info", "light", "dark"]
+  record: "沪ICP备12030997号-4"
+menu:
+  main:
+  - name: 文章
+    identifier: posts
+    url: /posts/
+    weight: 1
+  - name: 项目
+    identifier: project
+    weight: 2
+    url: /project/
+  - name: 关于
+    identifier: about
+    weight: 3
+    url: "/about/"
+  - name: 个人介绍
+    parent: about
+    weight: 1
+    url: "/about/me/"
+  - name: 支付方式
+    parent: about
+    weight: 2
+    url: "/about/pay/"
+copyright: "©2009-2023  "
