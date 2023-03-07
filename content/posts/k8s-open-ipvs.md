@@ -15,7 +15,7 @@ banner: ""
  yum install ipvsadm -y
 ```
 ## 在所有的Kubernetes节点执行以下脚本:
-```
+```bash
 cat > /etc/sysconfig/modules/ipvs.modules <<EOF
 #!/bin/bash
 modprobe -- ip_vs
@@ -41,7 +41,7 @@ kubectl get pod -n kube-system |grep kube-proxy |awk '{system("kubectl delete po
 kubectl get pod -n kube-system | grep kube-proxy
 ```
 
-#查看日志
+## 查看日志
 如果有 `Using ipvs Proxier.` 说明kube-proxy的ipvs 开启成功!
  ```bash
  kubectl logs -n kube-system kube-proxy-54qnw
