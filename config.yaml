@@ -17,9 +17,11 @@ taxonomies:
   category: categories
 sectionPagesMenu: "main"
 params:
+  page_view_conter: true
   announcement: "<strong>如水网</strong>新版本上线了！"
   colors: ["primary", "secondary", "success", "danger", "warning", "info", "light", "dark"]
   record: "沪ICP备12030997号-4"
+  tongji: '<script>var _hmt=_hmt||[];(function(){var hm=document.createElement("script");hm.src="https://hm.baidu.com/hm.js?5bba6d5be6c8ba53c5998abcc26ed7db";var s=document.getElementsByTagName("script")[0];s.parentNode.insertBefore(hm,s)})();</script>'
 menu:
   main:
   - name: 文章
