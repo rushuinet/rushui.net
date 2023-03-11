@@ -8,7 +8,7 @@ tags: ["CentOS"]
 thumbnail: ""
 banner: ""
 ---
-1、查看当前内核版本
+## 1、查看当前内核版本
 ```bash
 $ uname -r
 3.10.0-514.el7.x86_64
@@ -19,8 +19,8 @@ Linux k8s-master 3.10.0-514.el7.x86_64 #1 SMP Tue Nov 22 16:42:41 UTC 2016 x86_6
 $ cat /etc/redhat-release 
 CentOS Linux release 7.3.1611 (Core) 
 ```
-2、升级内核
-更新yum源仓库
+## 2、升级内核
+### 更新yum源仓库
 ```bash
 $ yum -y update
 ```
@@ -28,15 +28,15 @@ $ yum -y update
 ELRepo 仓库是基于社区的用于企业级 Linux 仓库，提供对 RedHat Enterprise (RHEL) 和 其他基于 RHEL的 Linux 发行版（CentOS、Scientific、Fedora 等）的支持。
 ELRepo 聚焦于和硬件相关的软件包，包括文件系统驱动、显卡驱动、网络驱动、声卡驱动和摄像头驱动等。
 
-## 导入ELRepo仓库的公共密钥
+### 导入ELRepo仓库的公共密钥
 ```bash
 rpm --import https://www.elrepo.org/RPM-GPG-KEY-elrepo.org
 ```
-#安装ELRepo仓库的yum源
+### 安装ELRepo仓库的yum源
 ```bash
 rpm -Uvh http://www.elrepo.org/elrepo-release-7.0-3.el7.elrepo.noarch.rpm
 ```
-3、查看可用的系统内核包
+## 3、查看可用的系统内核包
 可以看到4.4和4.18两个版本
 ```bash
 yum --disablerepo="*" --enablerepo="elrepo-kernel" list available
@@ -63,13 +63,13 @@ kernel-ml-tools-libs-devel.x86_64                                               
 perf.x86_64                                                                                       4.18.7-1.el7.elrepo                                                                   elrepo-kernel
 python-perf.x86_64                                                                                4.18.7-1.el7.elrepo                                                                   elrepo-
 ```
-4、安装最新版本内核
+## 4、安装最新版本内核
 ```bash
 $ yum --enablerepo=elrepo-kernel install kernel-ml
 ```
 `--enablerepo` 选项开启 CentOS 系统上的指定仓库。默认开启的是 elrepo，这里用 elrepo-kernel 替换。
 
-5、设置 grub2
+## 5、设置 grub2
 内核安装好后，需要设置为默认启动选项并重启后才会生效
 
 查看系统上的所有可用内核：
@@ -116,12 +116,12 @@ done
 
 $ reboot
 ```
-6、验证
+## 6、验证
 ```bash
 $ uname -r
 4.18.7-1.el7.elrepo.x86_64
 ```
-7、删除旧内核（可选）
+## 7、删除旧内核（可选）
 查看系统中全部的内核：
 ```bash
 $ rpm -qa | grep kernel
