@@ -33,6 +33,10 @@ menu:
     identifier: project
     weight: 2
     url: /project/
+  - name: 文集
+    identifier: docs
+    weight: 3
+    url: /docs/readme/
   - name: 关于
     identifier: about
     weight: 4
