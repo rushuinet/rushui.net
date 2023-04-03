@@ -52,6 +52,6 @@ func main(){
 ```
 ### 启动服务
 ```bash
-hugo server -D
+hugo server -D --poll 200ms
 ```
 打开 http://localhost:1313/ 即可看到刚才加的内容
