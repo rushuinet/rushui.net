@@ -77,9 +77,12 @@ spec:                      #设置该资源的内容
       mountPath: /data     #挂载到容器的某个路径下  
       readOnly: True  
   volumes:                 #定义一组挂载设备  
+  - name: cache-volume
+    emptyDir:              #在 Pod 被删除时也会一起被删除
+      sizeLimit: 500Mi
   - name: volume           #定义一个挂载设备的名字  
-    #meptyDir: {}  
-    hostPath:  
+    hostPath: 
+      type: Directory      # 此字段为可选
       path: /opt           #挂载设备类型为hostPath，路径为宿主机下的/opt
       
 ```

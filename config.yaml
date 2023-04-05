@@ -1,13 +1,35 @@
-baseURL : 'https://www.rushui.net/'
-languageCode : 'en-us'
-title : '如水网'
-theme : "rs"
+baseURL: "https://www.rushui.net/"
+languageCode: "en-us"
+title: "如水网"
+theme: "rs"
 markup:
   highlight:
-   linenos: true
-   hl_inline: false
-   anchorLineNos: false
-   lineNumbersInTable: false
+    linenos: true
+    hl_inline: false
+    anchorLineNos: false
+    lineNumbersInTable: false
+    guessSyntax: true
+    tabWidth: 4
+    extensions:
+      definitionList: true
+      footnote: true
+      linkify: true
+      linkifyProtocol: https
+      strikethrough: true
+      table: true
+      taskList: true
+      typographer: true
+    parser:
+      attribute:
+        block: true
+        title: true
+      autoHeadingID: true
+      autoHeadingIDType: github
+      wrapStandAloneImageWithinParagraph: true
+    renderer:
+      hardWraps: false
+      unsafe: false
+      xhtml: false
   tableOfContents:
     endLevel: 3
     ordered: false
@@ -20,32 +42,51 @@ copyright: "©2009-2023  "
 params:
   page_view_conter: true
   announcement: "<strong>如水网</strong>新版本上线了！"
-  colors: ["primary", "secondary", "success", "danger", "warning", "info", "light", "dark"]
+  colors:
+    [
+      "primary",
+      "secondary",
+      "success",
+      "danger",
+      "warning",
+      "info",
+      "light",
+      "dark",
+    ]
+  docs: ["docs", "go-zeus", "freemesh", "vue-admin"]
   record: "沪ICP备12030997号-4"
   tongji: '<script>var _hmt=_hmt||[];(function(){var hm=document.createElement("script");hm.src="https://hm.baidu.com/hm.js?5bba6d5be6c8ba53c5998abcc26ed7db";var s=document.getElementsByTagName("script")[0];s.parentNode.insertBefore(hm,s)})();</script>'
 menu:
   main:
-  - name: 文章
-    identifier: posts
-    url: /posts/
-    weight: 1
-  - name: 项目
-    identifier: project
-    weight: 2
-    url: /project/
-  - name: 文集
-    identifier: docs
-    weight: 3
-    url: /docs/readme/
-  - name: 关于
-    identifier: about
-    weight: 4
-    url: "/about/"
-  - name: 个人介绍
-    parent: about
-    weight: 1
-    url: "/about/me/"
-  - name: 支付方式
-    parent: about
-    weight: 2
-    url: "/about/pay/"
+    - name: 文章
+      identifier: posts
+      url: /posts/
+      weight: 1
+    - name: 项目
+      identifier: project
+      weight: 2
+      url: /project/
+    - name: 文集
+      identifier: docs
+      weight: 3
+      url: /docs/readme/
+    - name: vue-admin
+      parent: docs
+      weight: 1
+      url: "/vue-admin/readme/"
+    - name: 关于文集
+      parent: docs
+      weight: 99
+      url: "/docs/readme/"
+    - name: 关于
+      identifier: about
+      weight: 4
+      url: "/about/"
+    - name: 个人介绍
+      parent: about
+      weight: 1
+      url: "/about/me/"
+    - name: 支付方式
+      parent: about
+      weight: 2
+      url: "/about/pay/"

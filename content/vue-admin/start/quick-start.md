@@ -1,10 +1,9 @@
 ---
-title: "简介"
+title: "快速开始"
 date: 2000-03-05T01:52:45+08:00
 keywords: "vue"
 description: ""
 categories: []
 tags: ["vue"]
-weight: 1
+weight: 2
 ---
-## 什么是vue-admin
