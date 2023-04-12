@@ -35,6 +35,6 @@ DEMO: [https://demo.cncf.vip/vue-admin/](https://demo.cncf.vip/vue-admin/)
 
 所以：
 
-1.本项目不是重复造轮子，是创造中产品需要的轮子。
+1.本项目不是重复造轮子，是创造产品需要的轮子。
 
 2.通过发明新轮子从而学习到更多的前端知识。

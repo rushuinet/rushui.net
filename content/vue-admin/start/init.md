@@ -78,8 +78,20 @@ import 'element-plus/theme-chalk/dark/css-vars.css'
 ```
 ### 引入icon
 https://element-plus.org/zh-CN/component/icon.html
-在这里遇到了Object.entries方法不存在的情况，暂时搁置
-
+在这里遇到了Object.entries方法不存在的情况需要在tsconfig.json的compilerOptions字段中增加
+```json
+{
+  "compilerOptions": {
+    ...
+    "lib": [
+      "esnext",
+      "dom"
+    ],
+    ...
+  },
+}
+```
+ tsconfig.json 配置详解参考:https://rushui.net/posts/tsconfig-json/
 ## LOGO
 ```svg
   <svg class="icon" width="200px" height="200.00px" viewBox="0 0 1024 1024" version="1.1"
