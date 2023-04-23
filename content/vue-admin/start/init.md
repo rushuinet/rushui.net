@@ -5,7 +5,7 @@ keywords: "vue"
 description: ""
 categories: []
 tags: ["vue"]
-weight: 1
+weight: 2
 ---
 ## 工具版本
 - nodejs:v18.14.2
