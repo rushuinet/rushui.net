@@ -3,7 +3,7 @@ title: "nsenter命令简介"
 date: 2023-04-18T00:22:26+08:00
 keywords: ["nsenter"]
 description: "nsenter命令是一个可以在指定进程的命令空间下运行指定程序的命令。它位于util-linux包中。"
-categories: [""]
+categories: ["技术文档"]
 tags: ["nsenter"]
 thumbnail: ""
 banner: ""

@@ -3,7 +3,7 @@ title: "Mac安装Homebrew"
 date: 2023-04-24T19:20:20+08:00
 keywords: ["Homebrew"]
 description: ""
-categories: [""]
+categories: ["技术文档"]
 tags: ["Homebrew"]
 thumbnail: ""
 banner: ""

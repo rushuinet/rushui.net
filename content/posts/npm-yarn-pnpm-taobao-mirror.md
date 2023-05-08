@@ -3,7 +3,7 @@ title: "npm、yarn和pnpm 设置淘宝镜像"
 date: 2023-04-14T23:50:17+08:00
 keywords: ["npm", "pnpm", "yarn"]
 description: ""
-categories: [""]
+categories: ["技术应用"]
 tags: ["npm", "pnpm", "yarn"]
 thumbnail: ""
 banner: ""

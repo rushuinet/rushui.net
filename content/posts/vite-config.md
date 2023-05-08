@@ -3,7 +3,7 @@ title: "vite配置详解"
 date: 2023-04-12T23:09:44+08:00
 keywords: ["vite"]
 description: "本文主要介绍了vite.config.js配置入门详解，具有一定的参考价值，感兴趣的小伙伴们可以参考一下"
-categories: [""]
+categories: ["技术文档"]
 tags: ["vite"]
 thumbnail: ""
 banner: ""

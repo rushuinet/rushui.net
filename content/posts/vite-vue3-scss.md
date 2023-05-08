@@ -3,7 +3,7 @@ title: "vite vue3 中如何在 js 中使用 scss 变量"
 date: 2023-04-14T23:52:31+08:00
 keywords: ["vite", "vue3", "scss"]
 description: "不管工作还是学习，我都很喜欢用 scss 和 less ，真的比纯 css 方便太多了。本文讲解如何在 js 里导入 scss 的变量。"
-categories: [""]
+categories: ["技术文档"]
 tags: ["vite", "vue3", "scss"]
 thumbnail: ""
 banner: ""

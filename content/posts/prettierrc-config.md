@@ -3,7 +3,7 @@ title: ".prettierrc文件常见配置"
 date: 2023-04-12T22:59:06+08:00
 keywords: ["prettier"]
 description: "由于团队开发人员的编码习惯较难统一，要做到代码风格的一致性相对困难，尽管可以讨论制定代码规约，但可能会给开发带来额外的烦恼。Prettier 的出现，很好地解决了这个问题，还可以搭配 Git 的 hooks 规避不合规范的提交"
-categories: [""]
+categories: ["技术文档"]
 tags: ["prettier"]
 thumbnail: ""
 banner: ""
