@@ -6,9 +6,14 @@ description: "如水是如水网的创始人"
 categories: ["站内公告"]
 tags: ["介绍"]
 ---
+
 ## 简介
+
 如水是如水网的创始人，目前在云原生技术领域深耕。
+
 ## 平台
-云原生vip社区
+
+云原生 vip 社区
+
 - https://cncf.vip
-- http://cloudnative.vip
+- https://cloudnative.vip
