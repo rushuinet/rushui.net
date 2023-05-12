@@ -1,6 +1,6 @@
 ---
 title: "kubectl logs命令的用法"
-date: 2023-05-10T22:56:02+08:00
+date: 2023-05-11T22:56:02+08:00
 keywords: ["kubectl"]
 description: ""
 categories: ["技术应用"]
@@ -8,13 +8,15 @@ tags: ["kubectl"]
 thumbnail: ""
 banner: ""
 ---
-kubectl logs：输出pod中一个容器的日志。
 
-输出pod中一个容器的日志。如果pod只包含一个容器则可以省略容器名。
+kubectl logs：输出 pod 中一个容器的日志。
+
+输出 pod 中一个容器的日志。如果 pod 只包含一个容器则可以省略容器名。
 
 kubectl logs [-f] [-p] POD [-c CONTAINER]
 
 示例
+
 ```bash
 # 返回仅包含一个容器的pod nginx的日志快照
 kubectl logs nginx
@@ -31,7 +33,9 @@ kubectl logs --tail=20 nginx
 # 输出pod nginx中最近一小时内产生的所有日志
 kubectl logs --since=1h nginx
 ```
+
 选项
+
 ```bash
 -c, --container="": 容器名。
 -f, --follow[=false]: 指定是否持续输出日志。
