@@ -13,7 +13,21 @@ tags: ["介绍"]
 
 ## 平台
 
-云原生 vip 社区
+#### 云原生平台
+https://cncf.vip
 
-- https://cncf.vip
-- https://cloudnative.vip
+#### 自由生活 - 灵活用工平台
+https://ziyou.live
+
+#### 游.上海！
+https://u.sh.cn
+
+## 社区
+
+#### 云原生 vip 社区
+https://cloudnative.vip
+
+## 俱乐部
+#### 上海CTO俱乐部
+https://cto.sh.cn
+
