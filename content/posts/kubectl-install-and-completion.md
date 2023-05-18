@@ -21,7 +21,7 @@ kubectl version --client
 ```
 
 ## 命令补全
-命令补全配置见：[mac下docker命令自动补齐](https://www.rushui.net/posts/docker-completion/)
+命令补全配置见：[mac下docker命令自动补齐]({{<url "posts/docker-completion" >}})
 
 1.在文件 `~/.bash_profile` 中导入（Source）补全脚本：
 ```bash

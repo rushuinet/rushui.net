@@ -38,7 +38,7 @@ taxonomies:
   tag: tags
   category: categories
 sectionPagesMenu: "main"
-copyright: "©2009-2023  "
+copyright: "©2009-"
 params:
   page_view_conter: true
   announcement: "<strong>如水网</strong>新版本上线了！"
