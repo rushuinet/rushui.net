@@ -22,7 +22,8 @@ metadata:                  #资源的元数据/属性
     - name: String         #设置自定义注解名字  
 spec:                      #设置该资源的内容  
   restartPolicy: Always    #表示自动重启，一直都会有这个容器运行
-  nodeSelector:            #选择node节点14     zone: node1  
+  nodeSelector:            #选择node节点14     zone: node1 
+  enableServiceLinks: true #是否将服务信息注入到pod的环境变量中，默认为true
   containers:  
   - name: django-pod        #容器的名字  
     image: django:v1.1      #容器使用的镜像地址  
