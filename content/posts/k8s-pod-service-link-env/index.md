@@ -88,6 +88,11 @@ kubectl edit deploy whoami
 在`spec.template.spec`下增加`enableServiceLinks:false`发现pod可以正常运行了。
 
 ## PS
+
+### 什么样的服务有会向pod添加env
+对于无头服务`clusterIP: None`的service不会添加env
+
+### 全局关闭
 询问chatGPT，是否可以全局关闭：
 ![](2.jpg)
 修改apiservers配置

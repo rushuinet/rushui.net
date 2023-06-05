@@ -3,7 +3,7 @@ title: "mac下docker命令自动补齐"
 date: 2023-04-24T20:29:53+08:00
 keywords: ["docker"]
 description: ""
-categories: [""]
+categories: ["技术文档"]
 tags: ["docker"]
 thumbnail: ""
 banner: ""

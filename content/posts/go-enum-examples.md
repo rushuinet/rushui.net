@@ -3,7 +3,7 @@ title: "golang 枚举示例"
 date: 2023-04-16T22:30:11+08:00
 keywords: ["golang"]
 description: ""
-categories: [""]
+categories: ["技术文档"]
 tags: ["golang"]
 thumbnail: ""
 banner: ""

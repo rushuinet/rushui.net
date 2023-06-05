@@ -3,7 +3,7 @@ title: "CentOS 7设置开机启动服务，添加自定义系统服务"
 date: 2023-03-10T23:38:32+08:00
 keywords: ["centos"]
 description: ""
-categories: []
+categories: ["技术应用"]
 tags: ["centos"]
 thumbnail: ""
 banner: ""

@@ -3,7 +3,7 @@ title: "命令行打开goland"
 date: 2023-04-23T21:39:57+08:00
 keywords: ["goland"]
 description: ""
-categories: [""]
+categories: ["技术应用"]
 tags: ["goland"]
 thumbnail: ""
 banner: ""

@@ -3,7 +3,7 @@ title: "kubectl logs命令的用法"
 date: 2023-05-11T22:56:02+08:00
 keywords: ["kubectl"]
 description: ""
-categories: ["技术应用"]
+categories: ["技术文档"]
 tags: ["kubectl"]
 thumbnail: ""
 banner: ""

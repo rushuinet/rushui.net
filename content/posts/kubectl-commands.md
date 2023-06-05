@@ -3,7 +3,7 @@ title: "Kubectl 常用命令大全"
 date: 2023-06-01T19:59:01+08:00
 keywords: ["kubectl"]
 description: ""
-categories: [""]
+categories: ["技术文档"]
 tags: ["kubectl"]
 thumbnail: ""
 banner: ""

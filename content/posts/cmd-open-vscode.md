@@ -3,7 +3,7 @@ title: "命令行打开vscode"
 date: 2023-04-23T21:40:06+08:00
 keywords: ["vscode"]
 description: ""
-categories: [""]
+categories: ["技术应用"]
 tags: ["vscode"]
 thumbnail: ""
 banner: ""

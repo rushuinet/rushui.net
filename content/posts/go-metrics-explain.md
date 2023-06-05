@@ -3,7 +3,7 @@ title: "Go运行时metrics指标详解"
 date: 2023-04-16T22:24:14+08:00
 keywords: ["go", "metrics"]
 description: "一个运行中的程序似乎很难具有“内省”能力，我们需要通过一个外部的观察者例如 dlv、gdb 来观察，或者是程序自身暴露的 metric。这就好像是要查看人体胃部的状况，需要借助外部工具胃镜，而内部的病变或者疼痛这样的指标也可以通过外部反应出来一样..."
-categories: [""]
+categories: ["技术文档"]
 tags: ["go", "metrics"]
 thumbnail: ""
 banner: ""
