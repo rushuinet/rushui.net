@@ -30,6 +30,9 @@ kubectl logs -f ruby -c web-1
 # 仅输出pod nginx中最近的20条日志
 kubectl logs --tail=20 nginx
 
+# 仅输出pod nginx中已经停止的容器的最近的20条日志
+kubectl logs -p --tail=20 nginx
+
 # 输出pod nginx中最近一小时内产生的所有日志
 kubectl logs --since=1h nginx
 ```
