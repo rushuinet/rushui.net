@@ -1,10 +1,10 @@
 ---
 title: "gomod使用ssh地址的私库"
 date: 2023-03-08T23:29:26+08:00
-keywords: ["git"]
+keywords: ["git","golang"]
 description: ""
 categories: ["技术应用"]
-tags: ["git"]
+tags: ["git","golang"]
 thumbnail: ""
 banner: ""
 ---
