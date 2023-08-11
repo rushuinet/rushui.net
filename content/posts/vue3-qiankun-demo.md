@@ -2,7 +2,7 @@
 title: "Vue3+vite与Qiankun实现的微前端Demo"
 date: 2023-08-02T20:14:46+08:00
 keywords: ["vue","qiankun","微前端"]
-description: qiankun 是一个基于 single-spa 的微前端实现库，旨在帮助大家能更简单、无痛的构建一个生产可用微前端架构系统。""
+description: "qiankun 是一个基于 single-spa 的微前端实现库，旨在帮助大家能更简单、无痛的构建一个生产可用微前端架构系统。"
 categories: ["技术应用"]
 tags: ["vue","qiankun","微前端"]
 thumbnail: ""
