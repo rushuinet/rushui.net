@@ -166,3 +166,6 @@ direct:https://github.com/vue-admin/vue-admin.git
 ```bash
 direct:https://github.com/vue-admin/vue-admin.git#main
 ```
+
+## 项目地址
+https://github.com/vue-admin/vadm
