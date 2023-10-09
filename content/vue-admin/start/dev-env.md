@@ -1,7 +1,7 @@
 ---
 title: "开发环境"
 date: 2000-03-05T01:52:45+08:00
-keywords: "vue"
+keywords: ["vue"]
 description: "vue-admin开发所需的环境配置"
 categories: []
 tags: ["vue"]

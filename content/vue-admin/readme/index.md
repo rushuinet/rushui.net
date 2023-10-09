@@ -1,14 +1,14 @@
 ---
 title: "简介"
 date: 2000-03-05T01:52:45+08:00
-keywords: "vue-admin"
-description: "vue-admin是一个后台管理脚手架，由vue3+vite+element-plus+TypeScript技术栈开发。"
+keywords: ["vue-admin"]
+description: "vue-admin是一个后台管理脚手架，由vue3+vite+element-plus+TypeScript+axios技术栈开发。"
 categories: []
 tags: ["vue-admin"]
 weight: 1
 ---
 ## 介绍
-vue-admin是一个后台管理脚手架，由vue3 + vite + typescript + element-plus + pinia + vue-router技术栈开发。
+vue-admin是一个后台管理脚手架，由vue3 + vite + typescript + element-plus + pinia + vue-router + axios技术栈开发。
 
 项目地址：[https://github.com/vue-admin/vue-admin](https://github.com/vue-admin/vue-admin)
 
@@ -23,7 +23,7 @@ DEMO: [https://demo.cncf.vip/vue-admin/](https://demo.cncf.vip/vue-admin/)
 ![暗黑模式](vue-admin-dark.png)
 
 ## 为什么需要该项目
-本人主要从事云原生中间件相关的工作，所做的产品需要产品化才能让更多的用户使用，从而产生更大的价值。
+本人主要从事云原生中间件相关的工作，需要产品化才能让更多的用户使用，前端技术也是产品化的重要项，多项技术结合形成生态，从而产生更大的价值。
 ### 为什么要造轮子？
 网上vue相关的后台管理系统那么多，为什么还要做一个？程序员圈子里流行这么一句话：“不要重复造轮子”。
 
@@ -35,6 +35,8 @@ DEMO: [https://demo.cncf.vip/vue-admin/](https://demo.cncf.vip/vue-admin/)
 
 所以：
 
-1.本项目不是重复造轮子，是创造产品需要的轮子。
+1.本项目不是重复造轮子，是创造产品需要的好轮子。
 
 2.通过发明新轮子从而学习到更多的前端知识。
+
+3.本项目是后台前端系统的底坐。

@@ -74,6 +74,10 @@ menu:
       parent: docs
       weight: 1
       url: "/vue-admin/readme/"
+    - name: go-zeus
+      parent: docs
+      weight: 2
+      url: "/go-zeus/readme/"
     - name: 关于文集
       parent: docs
       weight: 99

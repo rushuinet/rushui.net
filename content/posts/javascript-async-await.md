@@ -1,10 +1,10 @@
 ---
 title: "理解 JavaScript 的 `async/await`"
 date: 2023-07-20T19:37:00+08:00
-keywords: ["JavaScript"]
+keywords: ["JavaScript","async","await"]
 description: "随着 Node v7 的发布，越来越多的人开始研究据说是异步编程终级解决方案的 `async/await`。而 JavaScript 的 `async/await` 实现，也离不开 Promise。"
 categories: ["技术文档"]
-tags: ["JavaScript"]
+tags: ["JavaScript","async","await"]
 thumbnail: ""
 banner: ""
 ---
