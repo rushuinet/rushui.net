@@ -70,14 +70,18 @@ menu:
       identifier: docs
       weight: 3
       url: /docs/readme/
-    - name: vue-admin
-      parent: docs
-      weight: 1
-      url: "/vue-admin/readme/"
     - name: go-zeus
       parent: docs
-      weight: 2
+      weight: 1
       url: "/go-zeus/readme/"
+    - name: freemesh
+      parent: docs
+      weight: 2
+      url: "/freemesh/readme/"
+    - name: vue-admin
+      parent: docs
+      weight: 3
+      url: "/vue-admin/readme/"
     - name: 关于文集
       parent: docs
       weight: 99
