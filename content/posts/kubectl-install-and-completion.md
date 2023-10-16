@@ -1,10 +1,10 @@
 ---
 title: "mac安装kubectl并设置命令自动补全"
 date: 2023-04-24T20:29:57+08:00
-keywords: ["kubectl"]
+keywords: ["k8s","kubectl"]
 description: ""
 categories: ["技术文档"]
-tags: ["kubectl"]
+tags: ["k8s","kubectl"]
 thumbnail: ""
 banner: ""
 ---

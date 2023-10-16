@@ -1,7 +1,7 @@
 ---
 title: "kube-state-metrics常见监控指标"
 date: 2023-03-05T23:15:33+08:00
-keywords: ["metrics","监控"]
+keywords: ["k8s","metrics","监控"]
 description: ""
 categories: ["技术文档"]
 tags: ["metrics","k8s","监控告警"]

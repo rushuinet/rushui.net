@@ -1,10 +1,10 @@
 ---
 title: "Kubectl 常用命令大全"
 date: 2023-06-01T19:59:01+08:00
-keywords: ["kubectl"]
+keywords: ["k8s","kubectl"]
 description: ""
 categories: ["技术文档"]
-tags: ["kubectl"]
+tags: ["k8s","kubectl"]
 thumbnail: ""
 banner: ""
 ---

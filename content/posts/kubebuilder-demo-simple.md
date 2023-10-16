@@ -1,10 +1,10 @@
 ---
 title: "一个Kubebuilder的简单demo"
 date: 2023-06-06T20:03:04+08:00
-keywords: ["Kubebuilder"]
+keywords: ["k8s",Kubebuilder"]
 description: ""
 categories: ["技术应用"]
-tags: ["Kubebuilder"]
+tags: ["k8s","Kubebuilder"]
 thumbnail: ""
 banner: ""
 ---

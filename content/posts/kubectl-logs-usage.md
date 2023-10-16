@@ -1,10 +1,10 @@
 ---
 title: "kubectl logs命令的用法"
 date: 2023-05-11T22:56:02+08:00
-keywords: ["kubectl"]
+keywords: ["k8s","kubectl"]
 description: ""
 categories: ["技术文档"]
-tags: ["kubectl"]
+tags: ["k8s","kubectl"]
 thumbnail: ""
 banner: ""
 ---
