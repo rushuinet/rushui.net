@@ -16,6 +16,12 @@ tags: ["介绍"]
 #### 云原生平台
 https://cncf.vip
 
+#### 阿紫云
+http://aziyun.cn
+
+#### 联邦云
+https://lianbangyun.com
+
 #### 自由生活平台
 https://ziyou.live
 
@@ -30,4 +36,8 @@ https://cloudnative.vip
 ## 俱乐部
 #### 上海CTO俱乐部
 https://cto.sh.cn
+
+## AI
+#### chatGPT
+https://od9.cn
 
