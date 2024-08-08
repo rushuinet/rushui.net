@@ -14,10 +14,10 @@ tags: ["介绍"]
 ## 平台
 
 #### 云原生平台
-https://cncf.vip
+https://cncf.cc
 
 #### 阿紫云
-http://aziyun.cn
+https://aziyun.cn
 
 #### 联邦云
 https://lianbangyun.com
